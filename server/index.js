@@ -15,3 +15,7 @@ function helloWorld () {
 function ima () {
     console.log("IamAim GIT");
 }
+
+function koizz() {
+    console.log("Koizz GIT")
+}
