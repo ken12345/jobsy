@@ -3,6 +3,7 @@ console.log("hello world")
 const ken = 0;
 const kim = 1;
 const novs = 0;
+const koizz = 3;
 //update 22222
 
 // hello mga parekoy
