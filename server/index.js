@@ -6,3 +6,6 @@ const novs = 0;
 //update 22222
 
 // hello mga parekoy
+function helloWorld () {
+
+}
