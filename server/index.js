@@ -19,3 +19,9 @@ function ima () {
 function koizz() {
     console.log("Koizz GIT")
 }
+
+function ken() {
+    console.log("kensh")
+}
+
+
