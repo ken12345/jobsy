@@ -7,5 +7,5 @@ const novs = 0;
 
 // hello mga parekoy
 function helloWorld () {
-
+    console.log("Hello World")
 }
