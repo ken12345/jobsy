@@ -11,3 +11,7 @@ const ima = 5;
 function helloWorld () {
     console.log("Hello World")
 }
+
+function koizz() {
+    console.log("Koizz GIT")
+};
