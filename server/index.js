@@ -12,6 +12,10 @@ function helloWorld () {
     console.log("Hello World")
 }
 
+function ima () {
+    console.log("IamAim GIT");
+}
+
 function koizz() {
     console.log("Koizz GIT")
-};
+}
