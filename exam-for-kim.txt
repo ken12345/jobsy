@@ -1,0 +1,7 @@
+
+1. create an array of student and name it arr, and it should be dynamic(mutable) array.
+2. add the new array from the console.log()
+2. add  a value of 10 into arr
+3. create a constant variable, name it num with a value of 26
+4. add the new created variable into array
+
