@@ -12,8 +12,8 @@ arr.pop();
 arr.shift();
 arr.unshift(46);
 
-import { totalmem } from "node:os";
-//test 2: Object Array
+// import { totalmem } from "node:os";
+// //test 2: Object Array
 
 import { IStudent } from "./student.interface";
 
@@ -27,7 +27,18 @@ const nameArr: string[] = ["John", "Karen", "Jane", "Mark"];
 const courseArr: string[] = ["BA", "Criminology", "Secretarial", "Law"];
 
 for(let i = 0; i < nameArr.length; i++) {
-  const student: IStudent = {} as IStudent;
+  const student: IStudent = {
+    name: nameArr[i],
+    course: courseArr[i],
+    totalGrade: arr[i],
+    id: studentArr.length + 1,
+  }
+  if(student.totalGrade <= 35) {
+    student.remarks = "FAILED"
+  } else {
+    student.remarks = "PASSED"
+  }
+  studentArr.push(student)
 }
 
 
@@ -65,5 +76,5 @@ for(let i = 0; i < nameArr.length; i++) {
 
 //output for arr
 console.log("arr:", arr, arr.length)
-//output for studentArr
+// //output for studentArr
 console.log("studentArr:", studentArr)
