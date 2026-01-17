@@ -1,7 +1,15 @@
 
-1. create an array of student and name it arr, and it should be dynamic(mutable) array.
-2. add the new array from the console.log()
-2. add  a value of 10 into arr
-3. create a constant variable, name it num with a value of 26
-4. add the new created variable into array
+1. create an array and name it arr, and it should be dynamic(mutable) array.
+2. add the new array from the console.log() // []
+3. add a value of 10 into arr //[10]
+4. create a constant variable, name it num with a value of 26 //[10]
+5. add the new created variable into array //[10, 26]
+6. add another value from the array in wchich the, sum of first and second element of the array. //[10, 26, 36]
+7. insert an 57 in between 2nd and 3rd element of array //[10, 26, 57, 36]
+8. add another element as the last index of array with the difference of 3rd and 4th element //[10, 26, 57, 36, 21]
+9 remove the last element of array in simpler way  //[10, 26, 57, 36]
+10. add the length of array in console.log //[10, 26, 57, 36] 4
+11. remove the first element of array //[26,57,36] 3
+12.insert 46 as the first element of array //[46, 26, 57, 36] 4
+13-15 push your changes
 
