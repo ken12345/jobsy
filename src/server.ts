@@ -12,11 +12,11 @@ arr.unshift(46)
 import {IStudent} from "./student.interface"
 let studentArr: IStudent[] = [];
 
-function addStudent (student:IStudent){
+ function addStudent (student:IStudent){
     studentArr.push(student);
-};
+ };
 
-addStudent({
+ addStudent({
     id: 0,
     name:"Koizz Gacilo",
     course: "IT",
@@ -38,9 +38,19 @@ const courseArr: string[] = [
 ];
 
 for (let i = 0; i < nameArr.length; i++) {
-    let student: IStudent = {} as IStudent;
+  const student: IStudent = {
+    name: nameArr[i],
+    course: courseArr[i],
+    totalGrade: arr[i],
+    id: studentArr.length +1
+  }
+  if(student.totalGrade <= 35) {
+    student.remarks = "FAILED"
+  } else {
+    student.remarks = "PASSED"
+  }
 
-
+  studentArr.push(student)
 }
 
 
