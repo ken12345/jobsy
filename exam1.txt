@@ -1,0 +1,6 @@
+1. create an interface named IStudent, name the file user.interface.ts
+2. add id, name, age, status, grade, and remarks(make the remarks an optional)
+3 import the the interface to server.ts
+4. create an array of student and name it studentArr, and it should be dynamic(mutable) array.
+5. create a function that will add an element to the studentArr, name it addStudent, add one parameter named student with a IStudent type
+6 call the the addStudent with the value of (id = length of array + 1, name = "your name", age = "your age", status = "your status", score = 80)
