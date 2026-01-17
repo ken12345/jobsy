@@ -47,5 +47,7 @@
 
 
 
-
-console.log("output here:")
+//output for arr
+console.log("arr:")
+//output for studentArr
+console.log("studentArr:")

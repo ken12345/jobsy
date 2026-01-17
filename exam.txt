@@ -1,0 +1,38 @@
+
+test 1: Array
+
+1. create an array and name it arr, and it should be dynamic(mutable) array.
+2. add the new array from the console.log() //arr: []
+3. add a value of 10 into arr //arr: [10]
+4. create a constant variable, name it num with a value of 26 //arr: [10]
+5. add the new created variable into array //arr: [10, 26]
+6. add another value from the array in wchich the, sum of first and second element of the array. //arr: [10, 26, 36]
+7. insert an 57 in between 2nd and 3rd element of array //arr: [10, 26, 57, 36]
+8. add another element as the last index of array with the difference of 3rd and 4th element //arr: [10, 26, 57, 36, 21]
+9 remove the last element of array in simpler way  //arr: [10, 26, 57, 36]
+10. add the length of array in console.log //arr: [10, 26, 57, 36] 4
+11. remove the first element of array //arr: [26,57,36] 3
+12.insert 46 as the first element of array //arr: [46, 26, 57, 36] 4
+
+
+test 2: Object
+
+1. create an interface. Name the file as user.interface.ts. name the interface as IStudent // studentArr:
+2. add the following properties to IStudent interface // studentArr:
+  id, name, course, totalGrade, remarks(make the remarks as optional by adding ? before the assign datataype operator)
+3. import the interface to the server.ts // studentArr:
+3 create a dynamic(mutable) array, name it studentArr. Use the newly create interface as array datataype // studentArr:
+4. add the new array to the console.log output provided // // studentArr: []
+5 create a function, name it addStudent, has parameter of student with IStudent data type // studentArr: []
+6. add a logic inside the addStudent function to push an object into studentArr // studentArr: []
+7 call the addStudent with below Object
+  {id: 0, name:"your name", course: "IT", totalGrade: 85} // studentArr: [{id: 0, name:"your name", course: "IT", totalGrade: 32}]
+8. create an array of string named nameArrr with a values of "John", "Karen", "Jane", "Mark"
+8. create an array of string named courseArrr with a values of "BA", "Criminology", "Secretarial", "Law"
+9. create a for loop targeting the nameArrr
+10. inside the for loop, compose an object name student that represents the IStudent interface, name will be coming from nameArr, course will be coming from
+  courseArr, and totalGrade from arr
+11. add condition that if totalGrade <= 35 remarks will be FAILED, otherwise PASSED, add the remarks to the objectstudent object
+12. for each loop, push the student object into studentArr.
+13-15. push your changes to your branch
+
