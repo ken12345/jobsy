@@ -1,5 +1,5 @@
 
-test 1: Array
+test 1: Number Array
 
 1. create an array and name it arr, and it should be dynamic(mutable) array.
 2. add the new array from the console.log() //arr: []
@@ -15,7 +15,7 @@ test 1: Array
 12.insert 46 as the first element of array //arr: [46, 26, 57, 36] 4
 
 
-test 2: Object
+test 2: Object Array
 
 1. create an interface. Name the file as user.interface.ts. name the interface as IStudent // studentArr:
 2. add the following properties to IStudent interface // studentArr:
