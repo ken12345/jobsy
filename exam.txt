@@ -4,9 +4,11 @@
 4 create 2 pages and 1 Card component
 5. Card component should have 3 properties{name, age, status, and id}
 6 add 3 divs on Card component and use the properties as it's data. Make sure It has labels before the data (ex: Name: Ken)
-7. import the data.json
-8. the component properties of Card should be coming from the data.json
-9. add button, labeled it "View" on Card component
-10. when View Button is clicked, go to page 2
-11 in page 2, dispplay all the details of the selected card based on its ID
-12. Page 2 should have back button on top left of the page so user can go back to page 1 to reselect Card
+7. import the data.json on page 1
+8. On page 1 render the card component base on the data from data.json {expect to render 9 cards since data has 9 objects}
+9.Use flex for the design, each card should have 12px gap between each other, display it in row
+10. the component properties of Card should be coming from the data.json
+11. add button, labeled it "View" on Card component
+12. when View Button is clicked, go to page 2
+13 in page 2, dispplay all the details of the selected card based on its ID
+14. Page 2 should have back button on top left of the page so user can go back to page 1 to reselect Card
