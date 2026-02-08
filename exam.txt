@@ -4,7 +4,9 @@
 4 create 2 pages and 1 Card component
 5. Card component should have 3 properties{name, age, status, and id}
 6 add 3 divs on Card component and use the properties as it's data. Make sure It has labels before the data (ex: Name: Ken)
-5. import the data.json
-
-6. the component properties of Card should be coming from the data.json
-7. add button, labeled it "View" on Card component
+7. import the data.json
+8. the component properties of Card should be coming from the data.json
+9. add button, labeled it "View" on Card component
+10. when View Button is clicked, go to page 2
+11 in page 2, dispplay all the details of the selected card based on its ID
+12. Page 2 should have back button on top left of the page so user can go back to page 1 to reselect Card
